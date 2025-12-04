@@ -8,7 +8,7 @@ function submit(){
     if(name == '' || education == '' || address == '' || age == '' ){
         alert('please kindly fill  the form')
     }
-    else if(education == "Master" && age >= 25 && age <= 40){
+    else if(education == "master" && age >= 25 && age <= 40){
         document.getElementById('rname').innerText = `NAME: ` + name;
         document.getElementById('raddress').innerText = `ADDRESS: ` +  address;
         document.getElementById('rage').innerText =`AGE: ` +  age;
